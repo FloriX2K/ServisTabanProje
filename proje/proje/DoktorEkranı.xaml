@@ -1,0 +1,32 @@
+﻿<Page x:Class="proje.DoktorEkranı"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proje"
+        mc:Ignorable="d"
+        Title="DoktorEkranı" Width="1920" Height="1080" Background="#F0F8FF">
+    <Grid>
+        <Canvas Margin="0,0,0,870" Background="#ADD8E6">
+            <Button Content="AnaSayfaya&#xD;&#xA;  Geri Dön" Canvas.Left="1708" Canvas.Top="47" Height="100" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="22" Background="Black" Foreground="White"/>
+            <TextBox Canvas.Left="274" TextWrapping="Wrap" Text="                  İSTANBUL HASTANESİ KONTROL SİSTEMİ" Canvas.Top="59" Width="1372" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" Height="76" 
+            FontSize="48" Background="#ADD8E6"
+            BorderBrush="Transparent" BorderThickness="0"
+            />
+        </Canvas>
+
+        <Canvas Margin="126,225,126,62" Background="White">
+            <Label Content="Doktor Bilgileri" Canvas.Left="64" Canvas.Top="65" Height="66" Width="294" FontSize="48" FontFamily="Bahnschrift SemiLight Condensed"/>
+            <Label Content="Doktor No :" Canvas.Left="64" Canvas.Top="197" HorizontalAlignment="Left" VerticalAlignment="Top" Width="190" Height="48" FontSize="24"/>
+            <Label Content="doktor no gelcek" Canvas.Left="370" Canvas.Top="197" Width="190" Height="48" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Doktor Ad :" Canvas.Left="64" Canvas.Top="271" Width="190" Height="48" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="doktor ad gelcek" Canvas.Left="370" Canvas.Top="271" Width="190" Height="48" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Doktor Soyad :" Canvas.Left="64" Canvas.Top="348" Width="190" Height="48" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="doktor soyad gelcek" Canvas.Left="370" Canvas.Top="348" Width="190" Height="48" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button Content="Reçete Yaz" Canvas.Left="64" Canvas.Top="595" Height="72" Width="202" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="Reçete Sil" Canvas.Left="358" Canvas.Top="595" Height="72" Width="202" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="Randevularım" Canvas.Left="650" Canvas.Top="595" Height="72" Width="202" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+    </Grid>
+</Page>
